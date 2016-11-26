@@ -1,0 +1,30 @@
+h1, h2 {
+	font-family: helvetica;
+	color: white;
+}
+
+p {
+	color: white;
+ 	font-family: courier;
+}
+body {
+	text-align: center;
+	background-image: url('images/background_pattern.png');
+	background-size: cover;
+	background-color: rgb(15,115,238);
+
+}
+
+h1 {
+	font-size: 100px;	
+	padding-top: 50px;
+	}
+
+h2 {
+	padding-top: 50px;
+}
+
+ul {
+	font-family: courier new;
+	list-style: none;
+	}

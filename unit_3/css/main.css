@@ -3,7 +3,7 @@ h1, h2 {
 	color: white;
 }
 
-p {
+p, a {
 	color: white;
  	font-family: courier;
 }
@@ -22,6 +22,15 @@ h1 {
 
 h2 {
 	padding-top: 50px;
+}
+
+a {
+	font-family: courier;
+	text-decoration: none;
+}
+
+#slogan {
+	font-family: gotham;
 }
 
 ul {

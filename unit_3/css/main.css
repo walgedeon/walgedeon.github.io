@@ -1,27 +1,36 @@
 h1, h2 {
 	font-family: helvetica;
 	color: white;
+	background-color: rgb(15,115,238);
+	display: inline-block;
+	margin: max 100px;
 }
 
 p, a {
 	color: white;
  	font-family: courier;
+ 	font-size: 18px;
+ 	background-color: rgb(15,115,238);
+ 	display: inline-block;
 }
 body {
 	text-align: center;
-	background-image: url('images/background_pattern.png');
+	background-image: url('../images/background_pattern.png');
 	background-size: cover;
 	background-color: rgb(15,115,238);
 
 }
 
 h1 {
-	font-size: 100px;	
-	padding-top: 50px;
+	font-size: 150px;	
+	border-top-color: red;
 	}
 
 h2 {
-	padding-top: 50px;
+	font-size: 24px;
+	padding-top: 0;
+	display: inline-block;
+	max-width: 800px;
 }
 
 a {
@@ -29,8 +38,12 @@ a {
 	text-decoration: none;
 }
 
+img {
+	background: none;
+}
 #slogan {
-	font-family: gotham;
+	font-family: courier new;
+	font-size: 20px;
 }
 
 ul {

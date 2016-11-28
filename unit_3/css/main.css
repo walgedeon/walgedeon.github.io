@@ -1,9 +1,19 @@
+/*COMMENTS HERE*/
+
+
+body {
+	text-align: center;
+	background-image: url('../images/background_pattern.png');
+	background-size: cover;
+	background-color: rgb(15,115,238);
+}
+
 h1, h2 {
 	font-family: helvetica;
 	color: white;
 	background-color: rgb(15,115,238);
 	display: inline-block;
-	margin: max 100px;
+	margin: max 80px;
 }
 
 p, a {
@@ -13,40 +23,34 @@ p, a {
  	background-color: rgb(15,115,238);
  	display: inline-block;
 }
-body {
-	text-align: center;
-	background-image: url('../images/background_pattern.png');
-	background-size: cover;
-	background-color: rgb(15,115,238);
-
-}
 
 h1 {
-	font-size: 150px;	
-	border-top-color: red;
+	font-size: 100px;	
+	padding-top: 50px;
 	}
 
 h2 {
 	font-size: 24px;
-	padding-top: 0;
-	display: inline-block;
 	max-width: 800px;
 }
 
 a {
 	font-family: courier;
 	text-decoration: none;
+
+
 }
 
 img {
 	background: none;
 }
+
 #slogan {
 	font-family: courier new;
 	font-size: 20px;
 }
 
-ul {
-	font-family: courier new;
-	list-style: none;
-	}
+#logo {
+	max-width: 100px;
+	padding: 50px;
+}

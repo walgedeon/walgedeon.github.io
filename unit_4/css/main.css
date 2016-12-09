@@ -1,0 +1,58 @@
+/*COMMENTS HERE*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body {
+	margin-left: 25px;
+	text-align: center;
+	background-image: url('../images/background_V2.png');
+	background-size: cover;
+	background-color: rgb(15,115,238);
+}
+
+h1, h2 {
+	font-family: Montserrat;
+	color: white;
+	background-color: rgb(15,115,238);
+	display: inline-block;
+	margin: max 80px;
+}
+
+p, a {
+	color: white;
+ 	font-family: courier;
+ 	font-size: 18px;
+ 	background-color: rgb(15,115,238);
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	max-width: 800px;
+
+}
+
+h1 {
+	font-size: 18px;	
+	padding-top: 0px;
+}
+
+h2 {
+	font-size: 24px;
+	max-width: 800px;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	margin-top: 200px;
+}
+
+img {
+	background: none;
+}
+
+#slogan {
+	font-family: courier new;
+	font-size: 20px;
+}
+
+#logo {
+	max-width: 50px;
+	padding-top: 25px;
+}
+

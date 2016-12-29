@@ -3,7 +3,7 @@
 
 body {
 	margin-left: 25px;
-	text-align: ;
+	text-align: center;
 	background-image: url('../images/background_V2.png');
 	background-size: cover;
 	background-color: rgb(15,115,238);
@@ -38,7 +38,6 @@ h2 {
 a {
 	font-family: courier;
 	text-decoration: none;
-
 
 }
 
